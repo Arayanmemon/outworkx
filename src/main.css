@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .w-85 {
+    width: 85rem;
+  }
+  .w-63 {
+    width: 63rem;
+  }
+  .sm\:w-5\/11{
+    width: 45.45%;
+  }
+  .h-125 {
+    height: 90rem; /* 1440px */
+  }
+  .sm:w-100{
+    width: 50rem;
+  }
+  .max-w-120{
+    max-width: 87.25rem;
+  }
+  .w-35{
+    width: 35rem;
+  }
+  .p-100{
+    padding: 2em 0.5em;
+  }
+  .btn:is(input[type="radio"]:checked){
+    background-color: black;
+    border-color: black;
+  }
+  .btn:is(input[type="radio"]:checked):hover{
+    background-color: black;
+    border-color: black;
+  }
+  .hero-img{
+    background-image: url('/images/hero.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .login-bg{
+    background-image: url('/images/login-screen.png');
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+  }
+  .h-0\.25{
+    height: 0.0625rem;
+  }
+}
+
